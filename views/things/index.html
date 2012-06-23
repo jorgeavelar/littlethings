@@ -1,0 +1,26 @@
+{% extends "layouts/layout.html" %}
+{% block content %}
+  <h2>Listing - My Little Things</h2>
+  <table id="result" width="300">
+    <thead>
+      <th>Title</th>
+      <th>View</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </thead>
+    <tbody>
+      {% for thing in things %}
+      <tr>
+        <td>{{ thing.title }}</td>
+        <td><a href="/show">view</a></td>
+        <td><a href="/edit">Edit</a></td>
+        <td><a href="#" onclick="javascript: return confirm('Are you shure?')">Delete</a></td>
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+
+  <td><a href="/new">New</a></td>
+
+{% endblock %}

@@ -1,4 +1,7 @@
-littlethings
-============
+It's The Little Things
+===================
 
-playing with cherrypy and jinja2
+For a while playing with cherrypy + Jinja2.
+
+
+Let's Rock!
