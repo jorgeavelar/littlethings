@@ -1,7 +1,6 @@
 #-*- coding: utf-8 -*-
 import cherrypy
 
-#from controllers.articles_controller import ArticlesController
 from controllers import ThingsController
 
 conf = {
