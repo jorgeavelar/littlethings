@@ -1,17 +1,27 @@
 {% extends "layouts/layout.html" %}
 {% block content %}
 <h2>Show - My Little Things</h2>
+  <article id="description">
+    <div class="label">
+      {{ thing.id }}
+    </div>
 
-  <div class="label">
-    {{ thing.id }}
-  </div>
+    <div class="label">
+      {{ thing.title }}
+    </div>
 
-  <div class="label">
-    {{ thing.title }}
-  </div>
+    <div class="label">
+      {{ thing.author }}
+    </div>
 
+    <div class="label">
+      {{ thing.description }}
+    </div>
+
+
+  </article>
   <br />
 
-<a href="/index">Back</a>
+<a href="/index">Back</a> &nbsp;<a href="/edit/{{ thing.id }}">Edit</a>
 
 {% endblock %}

@@ -9,8 +9,20 @@
     }
   </script>
   <table id="result" width="300">
+    <div>
+      <form action="/search" method="post">
+        <div class="search">
+          <label for="title">Search: <label>
+          <input type="text" name="title" id="title" value="" />
+          <input type="submit" value="Search"/>
+        </div>
+        </form>
+    </div>
+    <br />
     <thead>
       <th>Title</th>
+      <th>Author</th>
+      <th>description</th>
       <th>View</th>
       <th>Edit</th>
       <th>Delete</th>
@@ -19,6 +31,8 @@
       {% for thing in things %}
       <tr>
         <td>{{ thing.title }}</td>
+        <td>{{ thing.author }}</td>
+        <td>{{ thing.description}}</td>
         <td><a href="/show/{{ thing.id }}">view</a></td>
         <td><a href="/edit/{{ thing.id }}">Edit</a></td>
         <td><a href="/destroy/{{ thing.id }}" onclick="javascript: return doSubmit()">Delete</a></td>
