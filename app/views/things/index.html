@@ -1,6 +1,13 @@
 {% extends "layouts/layout.html" %}
 {% block content %}
   <h2>Listing - My Little Things</h2>
+  <script>
+    function doSubmit(){
+      if (confirm('Are you shure?')){
+        document.forms[0].submit();
+      }
+    }
+  </script>
   <table id="result" width="300">
     <thead>
       <th>Title</th>
@@ -12,14 +19,16 @@
       {% for thing in things %}
       <tr>
         <td>{{ thing.title }}</td>
-        <td><a href="/show">view</a></td>
-        <td><a href="/edit">Edit</a></td>
-        <td><a href="#" onclick="javascript: return confirm('Are you shure?')">Delete</a></td>
+        <td><a href="/show/{{ thing.id }}">view</a></td>
+        <td><a href="/edit/{{ thing.id }}">Edit</a></td>
+        <td><a href="/destroy/{{ thing.id }}" onclick="javascript: return doSubmit()">Delete</a></td>
       </tr>
       {% endfor %}
 
     </tbody>
   </table>
+
+  <br />
 
   <td><a href="/new">New</a></td>
 

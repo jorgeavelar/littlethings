@@ -1,7 +1,8 @@
+#!/usr/bin/env python
 #-*- coding: utf-8 -*-
 import cherrypy
 
-from controllers import ThingsController
+from app import *
 
 conf = {
     'global': {
