@@ -10,7 +10,7 @@ env = Environment(loader=FileSystemLoader('app/views'))
 class ThingsController(object):
 
   def __init__(self):
-    self.db = Database('mysql://root:JcA0011@localhost/thing_development?charset=utf8')
+    self.db = Database('mysql://root:xxxxx@localhost/thing_development?charset=utf8')
     self.db.create_tables()
     #URL('firebird', 'SYSDBA', 'masterkey', '192.168.1.11', '3052', 'bdband')
 
