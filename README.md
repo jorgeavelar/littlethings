@@ -24,7 +24,7 @@ Instalation
 Running Application
 -----------------
 
-Open a command prompt, navigate to the directory of the application and enter:
+Open a command prompt, navigate to the directory of the application and enter: 
     `python run_app.py`
 
 Open your browser and enter:
