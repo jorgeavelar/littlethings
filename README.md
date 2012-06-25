@@ -1,10 +1,10 @@
 It's The Little Things
-===================
+======================
 
 For a while playing with cherrypy + Jinja2.
 
 Requirements
------------
+------------
 
  - Python 2.7
  - Cherrypy
@@ -13,7 +13,7 @@ Requirements
 
 
 Instalation
-----------
+-----------
 
     `sudo pip install cherrypy`
     `sudo pip install sqlalchemy`
@@ -22,7 +22,7 @@ Instalation
 
 
 Running Application
------------------
+-------------------
 
 Open a command prompt, navigate to the directory of the application and enter: 
     
@@ -31,6 +31,7 @@ Open a command prompt, navigate to the directory of the application and enter:
 Open your browser and enter:
 
   http://localhost:8000
+
 
 
 
