@@ -27,7 +27,7 @@ Running Application
 
 Open a command prompt, navigate to the directory of the application and enter: 
     
-    sudo python run_app.py
+    python run_app.py
 
 Open your browser and enter:
 
