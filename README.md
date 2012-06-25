@@ -9,6 +9,7 @@ Requirements
  - Python 2.7
  - Cherrypy
  - Jinja2
+ - SQLAlchemy
  - Quick ORM
 
 
