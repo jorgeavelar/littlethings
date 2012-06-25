@@ -16,8 +16,11 @@ Instalation
 ----------
 
 `pip install cherrypy`
+
 `pip install sqlalchemy`
+
 `pip install quickorm`
+
 `pip install Jinja2`
 
 
