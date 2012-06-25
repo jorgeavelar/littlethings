@@ -15,17 +15,18 @@ Requirements
 Instalation
 ----------
 
-    `pip install cherrypy`
-    `pip install sqlalchemy`
-    `pip install quickorm`
-    `pip install Jinja2`
+    `sudo pip install cherrypy`
+    `sudo pip install sqlalchemy`
+    `sudo pip install quickorm`
+    `sudo pip install Jinja2`
 
 
 Running Application
 -----------------
 
 Open a command prompt, navigate to the directory of the application and enter: 
-    `python run_app.py`
+    
+    `sudo python run_app.py`
 
 Open your browser and enter:
 
