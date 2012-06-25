@@ -16,10 +16,10 @@ Requirements
 Instalation
 -----------
 
-    `sudo pip install cherrypy`
-    `sudo pip install sqlalchemy`
-    `sudo pip install quickorm`
-    `sudo pip install Jinja2`
+    sudo pip install cherrypy
+    sudo pip install sqlalchemy
+    sudo pip install quickorm
+    sudo pip install Jinja2
 
 
 Running Application
