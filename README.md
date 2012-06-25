@@ -27,13 +27,10 @@ Running Application
 
 Open a command prompt, navigate to the directory of the application and enter: 
     
-    `sudo python run_app.py`
+    sudo python run_app.py
 
 Open your browser and enter:
 
   http://localhost:8000
-
-
-
 
 Let's Rock!
