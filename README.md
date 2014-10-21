@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/johnnyrichard/littlethings.svg?branch=add-test-support)](https://travis-ci.org/johnnyrichard/littlethings)
+
 It's The Little Things
 ======================
 
