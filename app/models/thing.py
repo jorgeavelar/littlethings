@@ -1,15 +1,13 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-from quick_orm.core import Database
-from sqlalchemy import Column, String, Text
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Integer, Column, String, Text
 
-__metaclass__ = Database.DefaultMeta
+Base = declarative_base()
 
-class Thing(object):
-    __metaclass__ = Database.DefaultMeta
+class Thing(Base):
+    __tablename__ = 'things'
+    id = Column(Integer, primary_key=True)
     title = Column(String(80))
     description = Column(Text())
     author = Column(String(120))
-
-
-Database.register()

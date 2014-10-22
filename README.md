@@ -6,28 +6,26 @@ For a while playing with cherrypy + Jinja2.
 Requirements
 ------------
 
- - Python 2.7
- - Cherrypy
- - Jinja2
- - SQLAlchemy
- - Quick ORM
+ - python == 2.7
+ - pip == 1.5.6
 
 
 Instalation
 -----------
 
-    sudo pip install cherrypy
-    sudo pip install sqlalchemy
-    sudo pip install quickorm
-    sudo pip install Jinja2
+```bash
+$ pip install -r requirements.txt
+```
 
 
 Running Application
 -------------------
 
 Open a command prompt, navigate to the directory of the application and enter: 
-    
-    python run_app.py
+
+```bash
+$ python run_app.py
+```
 
 Open your browser and enter:
 
