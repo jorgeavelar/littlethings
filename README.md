@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/johnnyrichard/littlethings.svg?branch=add-test-support)](https://travis-ci.org/johnnyrichard/littlethings)
+
 It's The Little Things
 ======================
 
@@ -16,6 +18,13 @@ Instalation
 ```bash
 $ pip install -r requirements.txt
 ```
+
+Run tests
+---------
+```bash
+$ python -m unittest discover
+```
+
 
 
 Running Application
